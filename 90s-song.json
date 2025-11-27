@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Chura Ke Dil Mera",
+    "artist": "Kumar Sanu, Alka Yagnik",
+    "file": "songs/Chura_Ke_Dil_Mera.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d00001e028f3ae850e5c27b2f6d4ec696"
+  },
+  {
+    "title": "Ek Ladki Ko Dekha",
+    "artist": "Kumar Sanu",
+    "file": "songs/Ek_Ladki_Ko_Dekha.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735bc05a8f7f30de64f5b4df5c"
+  },
+  {
+    "title": "Tujhe Dekha To",
+    "artist": "Kumar Sanu, Lata Mangeshkar",
+    "file": "songs/Tujhe_Dekha_To.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273d5fd5fcaf75ad5e3bcd80139"
+  },
+  {
+    "title": "Pehla Nasha",
+    "artist": "Udit Narayan, Sadhana Sargam",
+    "file": "songs/Pehla_Nasha.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273f79fba399a097e68bc35cdbd"
+  },
+  {
+    "title": "Tum Mile Dil Khile",
+    "artist": "Kumar Sanu, Alka Yagnik",
+    "file": "songs/Tum_Mile_Dil_Khile.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d00001e02f3c42f6bcbfe24c899dc2388"
+  },
+  {
+    "title": "Dil To Pagal Hai",
+    "artist": "Lata Mangeshkar, Udit Narayan",
+    "file": "songs/Dil_To_Pagal_Hai.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732d7f02ce22a630e2ea098478"
+  },
+  {
+    "title": "Tip Tip Barsa Pani",
+    "artist": "Alka Yagnik",
+    "file": "songs/Tip_Tip_Barsa_Pani.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27333dfc603a2fa36c892c7781d"
+  },
+  {
+    "title": "Aye Mere Humsafar",
+    "artist": "Udit Narayan, Alka Yagnik",
+    "file": "songs/Aye_Mere_Humsafar.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d00001e026590ccb316457eb2e3ff7a9d"
+  },
+  {
+    "title": "Mera Dil Bhi Kitna Pagal Hai",
+    "artist": "Alka Yagnik, Kumar Sanu",
+    "file": "songs/Mera_Dil_Bhi_Kitna_Pagal_Hai.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c7240d8012b5acb8897e5a45"
+  },
+  {
+    "title": "Chand Chupa Badal Mein",
+    "artist": "Alka Yagnik, Udit Narayan",
+    "file": "songs/Chand_Chupa_Badal_Mein.mp3",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27341d360d6845c5d1470fb7e31"
+  }
+]

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify – Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="script1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+    <header class="nav">
+        <div class="left-nav">
+            <div class="home">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+                    <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-2-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                </svg>
+                <img src="home.svg" alt="">
+            </div>
+
+            <div class="search-bar">
+                <svg class="icon search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="white" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                </svg>
+
+                <input type="text" placeholder="What do you want to play?">
+
+                <svg class="filter" viewBox="0 0 24 24">
+                    <path fill="white" d="M15 15.5c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2"></path>
+                    <path fill="white" d="M1.513 9.37A1 1 0 0 1 2.291 9h19.418a1 1 0 0 1 .979 1.208l-2.339 11a1 1 0 0 1-.978.792H4.63a1 1 0 0 1-.978-.792l-2.339-11a1 1 0 0 1 .201-.837zM3.525 11l1.913 9h13.123l1.913-9zM4 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4h-2V3H6v3H4z"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="right-nav">
+            <div class="pds">
+                <div class="abc">
+                    <a href="#" class="a">Premium</a>
+                    <a href="#" class="b">Support</a>
+                    <a href="#" class="c">Download</a>
+                </div>
+
+                <div class="functions">
+                    <a class="seprater">|</a>
+                    <a class="app">
+                        <svg viewBox="0 0 16 16">
+                            <path fill="white" d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528-.005-.005-2.472-2.473a.75.75 0 0 1 0-1.06"></path>
+                            <path fill="white" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13"></path>
+                        </svg>
+                        <p>Install App</p>
+                    </a>
+                    <a href="#">Sign up</a>
+                    <a id="login-btn">Log in</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+
+        <!-- LEFT SIDE -->
+        <aside class="left">
+            <div class="headline">
+                <div class="your-library">
+                    <p>Your Library</p>
+                </div>
+                <div class="plus-btn">
+                    <img src="plus-alt-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+
+            <div class="first-playlist">
+                <h1>Create your first playlist</h1>
+                <p>It's easy, we'll help you</p>
+                <button class="create-playlist">Create playlist</button>
+            </div>
+
+            <div class="browse">
+                <h1>Let's find some podcasts to follow</h1>
+                <p>We'll keep you updated on new episodes</p>
+                <button class="browse-btn">Browse podcasts</button>
+            </div>
+
+            <div class="language">
+                <img src="language-svgrepo-com.svg" alt="">
+                <button>English</button>
+            </div>
+
+            <footer class="footer">
+                <div><a href="#">Legal</a></div>
+                <div><a href="#">Safety & Privacy Center</a></div>
+                <div><a href="#">Privacy Policy</a></div>
+                <div><a href="#">Cookies</a></div>
+                <div><a href="#">About Ads</a></div>
+                <div><a href="#">Accessibility</a></div>
+            </footer>
+        </aside>
+
+        <!-- RIGHT SIDE -->
+        <section class="right">
+            <div class="title-tag">
+                <div class="section">
+                    <h2>Trending Songs</h2>
+                    <div class="cards" id="trendingSongs"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PLAY BAR -->
+    <div class="play-bar">
+        <div class="left-info">
+            <img class="song-thum" src="">
+            <div class="song-meta">
+                <h1 id="song-name"></h1>
+                <p id="artist-name"></p>
+            </div>
+        </div>
+
+        <div class="middle-controls">
+            <div class="controls">
+                <img id="prevBtn" class="icon" src="previous-btn.svg">
+                <img id="playBtn" src="play-btn.svg">
+                <img id="nextBtn" class="icon" src="next-btn.svg">
+            </div>
+
+            <div class="progress-bar">
+                <span id="current-time">0:00</span>
+                <input type="range" id="seek-bar" min="0" max="0" value="0">
+                <span id="total-time">0:00</span>
+            </div>
+        </div>
+
+        <div class="right-play-bar">
+            <svg id="volume-icon" viewBox="0 0 16 16"></svg>
+            <input type="range" min="0" max="100" value="60" id="volumeControl">
+        </div>
+    </div>
+
+</div>
+
+<script src="spotify.js"></script>
+</body>
+</html>
